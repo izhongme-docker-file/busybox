@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM ppc64le/alpine:3.9
 
 RUN apk add --no-cache \
 		bzip2 \
